@@ -26,6 +26,8 @@ $ python3 evaluate_linage.py NB_8392403/
 
 It will run the pipeline id NB_8392403 and show the lineage result for PredTrace and baseline as well as their runtime.
 
-In this pipeline, all source tables returns 1 row as the lineage row (exact lineage), with no requirement to save intermediate results.
+In this pipeline, all source tables return 1 row as the lineage row (exact lineage), with no requirement to save intermediate results.
+
+To obtain the entire set of data science pipelines, please find: https://github.com/PredTrace/pipeline_code/blob/master/notebook_links.csv
 
 For saving intermediate results and returning a lineage superset, check the example in https://github.com/PredTrace/predtrace_sql.
